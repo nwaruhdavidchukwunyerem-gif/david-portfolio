@@ -11,11 +11,10 @@ e<!DOCTYPE html>
          <link rel="stylesheet" href="style.css" />
     
     <style>
-        /* extra videos so they are BIG like you want */
-        video { width:100%; max-width:700px; border-radius:20px; margin:20px 0;
-               .hero {text-align:center; padding:60px 20px; background:#0f172a; color:white;}
-               .section {max-width:900px; margin:40px auto; padding:20px;}
-               .project-card{background:white; border-radius:20px; padding:25px; margin:30px 0; box-shadow:0 10px 30px rgba(0,0,0,0.1);}
+        .box{display:flex;gap:10px}
+        .box video{width:70%;border-radius:10px}
+        .side{wdith:30%}
+        .side img{width:100%;border-radius:10px;margin-buttom:10px}
     </style>
 </head>
 <body>
@@ -25,12 +24,13 @@ e<!DOCTYPE html>
     <p>I help people build healthy habits through psychology</p>
     <div>
 
-        <div class+"project-card">
-            <h3>EMR App-Offline Clinic Manager</h3>
-            <img src="emr-app.jpg" style="width:100%; border-radius:16px;">
-        <video controls width="100%" style="border-radius: 16px; margin: 15px 0;">
-            <source src="202609201913.mp4" type="video/mp4">
-            </video>
+        <div class+"box">
+        <video controls src="202609201913.mp4"></video>
+            <div class="side">
+                <img src="emr-app.jpg">
+                <img src=genz_app.jpg">
+            </div>
+        </div>
 
             <p>
                 Redesign EMR for small clinics works 100% Offline,
@@ -45,17 +45,10 @@ e<!DOCTYPE html>
             <a href="#">View Code</a><a href="#"Live Demo</a>
             </div>
 
-            <div class="project-card">
-                <h3>Gen Z Micro Study Network</h3>
-                <img src="genz-app.jpg" style="width:100%; border-radius:16px;">
-                <video controls width="100%" style="border-radius: 16px;margin-top: 15px 0;">
-                    <source src="202609201913.mp4" type="video/mp4">
-                </video>
-
                 <p>
                     Redesign Study app for Gen Z.join 25-mins focus rooms
                     Share micro-notes track streak-cure loneliness while studying.
-                </p>
+              </p>
                 <a href="#">View Code<?a> <a href="#">Live Demo</a>
                 </div>
     </div>
